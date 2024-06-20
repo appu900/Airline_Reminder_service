@@ -36,7 +36,11 @@ const setupJobs = async () => {
 
 module.exports = setupJobs;
 
-
 // ## jay shree ram
-
-
+/***
+ *
+ *
+ * [service 1 (100 query ps) publisher] ----------> message queue [msg1,msg2,msg3...]  --------> [service 2 (20qps) SubScriber]
+ * 
+*
+ */
